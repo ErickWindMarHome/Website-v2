@@ -23,8 +23,6 @@ const Home_english = lazy(() => import('./pages/Home_english/Home_english'))
 const EnergiaDeLaBuena = lazy(() => import('./LP/EnergiaDeLaBuena/EnergiaDeLaBuena'))
 const ArteQueIlumina = lazy(() => import('./LP/ArteQueIlumina/ArteQueIlumina'))
 const Artistas = lazy(() => import('./layouts/ArteQueIlumina/Artistas'))
-const CybertruckPR = lazy(() => import('./LP/CybertruckPR/CybertruckPR'))
-const CybertruckRulesPR = lazy(() => import('./LP/CybertruckPR/CybertruckRulesPR'))
 const Incentivos = lazy(() => import('./LP/Incentivos/Incentivos'))
 const CarrersInstaller = lazy(() => import('./LP/CarrersInstaller/CarrersInstaller'))
 const FuerzaDeVentas = lazy(() => import('./LP/FuerzaDeVentas/FuerzaDeVentas'))
@@ -281,8 +279,6 @@ function App() {
 
           {/* PR */}
           <Route path="/pr/cybertuck" element={<Navigate to="/pr/cybertruck" replace />} />
-          <Route path="/pr/cybertruck" element={<CybertruckPR />} />
-          <Route path="/pr/cybertruck/rules" exact element={<CybertruckRulesPR />}></Route>
 
           {/* Landing Gerentes */}
           <Route path="/pr/energia-de-la-buena/careers" exact element={<AlexPares />}></Route>
