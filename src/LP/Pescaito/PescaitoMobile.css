@@ -1,0 +1,266 @@
+.Pescaito-mobile {
+  width: 100vw;
+  min-height: 120vh;
+  background-color: #fdfbf8;
+  color: #414042;
+  display: flex;
+  flex-direction: column;
+}
+
+.Pescaito-mobile span {
+  width: 100%;
+  height: 8vw;
+  min-height: 80px;
+}
+
+.PescaitoAlerta1-mobile {
+  background: url('../../assets/pescaito/red-bar.png');
+  color: #ffffff;
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  object-fit: cover;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.PescaitoForm-mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.PescaitoForm-mobile > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.PescaitoForm-mobile > div > section {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding-left: 5px;
+}
+
+.PescaitoForm-mobile > div > section > p {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.1px;
+  line-height: 1;
+  margin: 0 0 20px 0;
+}
+
+.PescaitoForm-mobile > div > section > form {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.PescaitoForm-mobile > div > section > form > label {
+  margin-top: 12px;
+  margin-bottom: 3px;
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #414042;
+}
+
+.PescaitoForm-mobile > div > section > form > input {
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  flex-basis: 100%;
+  width: 100%;
+  line-height: 1.4;
+  min-height: 40px;
+  box-sizing: border-box;
+}
+
+.PescaitoForm-mobile > div > section > form > button {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  min-height: 40px;
+  background-color: #414042;
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.PescaitoForm-mobile > div > section > picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PescaitoForm-mobile > div > section > picture > img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.PescaitoAlerta-mobile {
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/fondo-desktop-pescaito-solar.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  color: white;
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.PescaitoAlerta-mobile > div {
+  box-sizing: border-box;
+  padding: 0 30px 0 15px;
+  background-color: rgba(21, 21, 21, 0.525);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  font-size: 16px;
+}
+
+.PescaitoAlerta-mobile > div > h1 {
+  font-family: 'Bebas Neue', Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.PescaitoVideos-mobile {
+  background-color: #f7f0e6;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 50px 70px 30px;
+}
+
+.PescaitoVideos-mobile > h1 {
+  color: #ef4351;
+  font-family: 'Bebas Neue', Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+}
+
+.PescaitoVideos-mobile > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.PescaitoConfia-mobile {
+  background: url('../../assets/pescaito/red-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.PescaitoConfia-mobile > div {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.PescaitoConfia-mobile > div > p {
+  color: #ffffff;
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.PescaitoConfia-mobile > div > h1 {
+  color: #ffffff;
+  font-family: 'Bebas Neue', Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 20px 0 20px 0;
+}
+
+.PescaitoConfia-mobile > div > a > button {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #414042;
+  border: none;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.PescaitoAlerta2-mobile {
+  background: url('../../assets/pescaito/black-bar.png');
+  color: #ffffff;
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  object-fit: cover;
+}

@@ -1,0 +1,200 @@
+.BannerCommercial-mobile {
+  width: 100%;
+  background: url('../../assets/cambiate_a_energia_solar/Banner_1.png');
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 10% 5%;
+}
+
+.BannerCommercial-mobile > article {
+  width: 95%;
+  background-size: cover;
+  background-color: #0038a8;
+  box-sizing: border-box;
+  padding: 1% 5%;
+  border-radius: 15px;
+  border: 3px solid #0038a8;
+}
+
+.BannerCommercial-mobile > article > div > h1 > strong {
+  color: #ff9e18;
+  font-weight: 700;
+}
+
+.BannerCommercial-mobile > article > div > h1 {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  margin-top: 8%;
+  width: 100%;
+  text-align: center;
+}
+
+.BannerCommercial-mobile > article > div > strong > p {
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+.Banner_Sunnova-mobile {
+  width: 100%;
+  background: linear-gradient(#ffffff 85%, #234992 50%);
+}
+.Banner_Sunnova-mobile > article > div {
+  width: 100%;
+  justify-content: center;
+}
+
+.SunnText2-mobile {
+  width: 100%;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.SunnText2-mobile > img {
+  width: 85%;
+  margin-top: 3%;
+  margin-left: 8%;
+}
+
+.Banner_Sunnova-mobile > article > div > h2 {
+  color: #234992;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 85%;
+}
+
+.Banner_Prq-mobile {
+  width: 100%;
+  background: linear-gradient(#234992 50%, #ffffff 50%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Banner_Prq-mobile > article > div {
+  width: 100%;
+  color: #54595f;
+  box-sizing: border-box;
+  padding: 0 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Banner_Prq-mobile > article > section {
+  width: 100%;
+  color: #54595f;
+  box-sizing: border-box;
+  padding: 0 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Banner_Prq-mobile > article > div > img {
+  width: 42%;
+  height: 25%;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  align-items: center;
+}
+
+.Banner_Prq-mobile > article > div > img:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.363);
+}
+
+.Banner_Prq-mobile > article > section > img {
+  width: 42%;
+  height: 25%;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+  margin: 0 10px;
+  align-items: center;
+}
+
+.Banner_Prq-mobile > article > section > img:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.363);
+}
+
+.Banner_Prq-mobile > article > h1 {
+  width: 70%;
+  height: 100px;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.Banner_Azul-mobile {
+  min-width: 100vw;
+  margin-top: 50px;
+}
+
+.Banner_Azul-mobile > article {
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.Banner_Azul-mobile > article > div {
+  width: 100%;
+}
+
+.Banner_Azul-mobile > article > div > h1 {
+  /* width: 35%; */
+  color: #234992;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.Banner_Azul-mobile > article > div > a > button {
+  width: 100%;
+  height: 30px;
+  background: #ff9e18;
+  color: #ffffff;
+  border: none;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Banner_Azul-mobile > article > div > a > button:hover {
+  background-color: var(--wh-blue);
+  color: white;
+}
+
+.Banner_Azul-mobile > article > img {
+  flex: 50%;
+  margin-top: 10%;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}

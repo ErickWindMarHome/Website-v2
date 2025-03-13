@@ -1,0 +1,131 @@
+.FormLema-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 900px;
+  height: 100vh;
+  background-color: rgb(14, 14, 14);
+  background-image: url('../../../assets/anker/backgrc1.jpg');
+  background-size: cover auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100vw;
+  margin: 0 10vw;
+}
+
+/* .FormLema-desktop > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-width: 800px;
+
+  box-sizing: border-box;
+  padding-bottom: 20px;
+} */
+
+/* .FormLema-desktop > div > article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 4vw;
+  color: white;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  padding-left: 40px;
+} */
+
+/* .FormLema-desktop > div > article img {
+  width: 84%;
+  margin: 20px 0;
+} */
+
+/* .FormLema-desktop > div > article h1 {
+  background: -webkit-linear-gradient(180deg, #00db84, #00a9e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-weight: 700;
+  font-size: 42px;
+} */
+
+/* .FormLema-desktop > div > article h2 {
+  font-weight: 500;
+  font-size: clamp(20px, 4vw, 80px);
+  line-height: 1;
+} */
+
+/* .FormLema-desktop > div article p {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5;
+} */
+
+/* .FormLema-desktop > div article form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.FormLema-desktop > div article form span {
+  width: 100%;
+  display: flex;
+  gap: 6px;
+} */
+
+/* .FormLema-desktop > div article form input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(38, 38, 38, 0.404);
+  border-radius: 3px;
+  font-size: 18px;
+  margin: 6px 0;
+  padding: 0;
+  color: black;
+} */
+
+/* .FormLema-desktop input::placeholder {
+  color: rgb(191, 191, 191);
+  font-size: 17px;
+  padding-left: 10px;
+} */
+
+/* .FormLema-desktop > div > article > form > button {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(38, 38, 38, 0.404);
+  border-radius: 4px;
+  font-size: 21px;
+  margin: 6px 0;
+  padding: 0;
+  background: #00a9e0;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .FormLema-desktop div aside {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .FormLema-desktop div aside img {
+  width: 90%;
+  object-fit: cover;
+} */

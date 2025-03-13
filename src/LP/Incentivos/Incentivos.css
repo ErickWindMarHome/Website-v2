@@ -1,0 +1,398 @@
+.Contenedor_ProgramaFderal-desktop {
+  background: #f2f2f2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProgramaFderal-desktop {
+  width: 100%;
+  min-width: 1250px;
+  max-width: 1920px;
+  background: url('../../assets/incentivos/Banner_incentivos.png');
+  margin-top: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  gap: 5vw;
+}
+
+.ProgramaFderal-desktop > article {
+  width: 80%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.ProgramaFderal-desktop > article > h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ff9e18;
+  padding-top: 50px;
+  width: 60%;
+}
+
+.ProgramaFderal-desktop > article > h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  width: 60%;
+}
+
+.ProgramaFderal-desktop > article > h2 > span {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ff9e18;
+  width: 60%;
+}
+.ProgramaFderal-desktop > article > p {
+  font-size: 25px;
+  color: white;
+  padding-top: 10px;
+  font-weight: 400;
+  width: 50%;
+}
+
+.ProgramaFderal-desktop > article > p > strong {
+  font-weight: 800;
+}
+
+.ProgramaFderal-desktop > article > div > form {
+  background: #ffffff;
+  min-width: 20em;
+  max-width: 25em;
+  min-height: 20em;
+  max-height: 45em;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProgramaFderal-desktop > article > div > form > h1 {
+  font-size: 40px;
+  color: #ff9e18;
+  text-align: center;
+  font-weight: 600;
+}
+
+.ProgramaFderal-desktop > article > div > form > label {
+  color: #ff9e18;
+  text-align: left;
+  margin: 10px 20px 10px 20px;
+}
+
+.ProgramaFderal-desktop > article > div > form > input {
+  height: 35px;
+  background-color: #ffffffca;
+  border-radius: 10px;
+  border: 1px solid #ff9e18;
+  width: 90%;
+  margin-left: 2em;
+  margin: 15px;
+}
+
+.ProgramaFderal-desktop > article > div > form > select {
+  height: 35px;
+  background-color: #ffffffeb;
+  border-radius: 3px;
+  border: 1px solid #ff9e18;
+  margin-bottom: 10px;
+  width: 90%;
+  margin-left: 2em;
+  margin: 15px;
+}
+
+.ProgramaFderal-desktop > article > div > form > div > button {
+  width: 60%;
+  height: 35px;
+  background-color: #ff9e18;
+  color: var(--wh-blue);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: #ff9e18;
+  margin: 10px 80px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.ProgramaFderal-desktop > article > div > form > div > button:hover {
+  width: 60%;
+  height: 35px;
+  background-color: var(--wh-blue);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: #ff9e18;
+  margin: 10px 80px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Banner_califi-desktop {
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/reglas-para-aplicar-incentivos.webp');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #ffffff;
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 1250px;
+  max-width: 1680px;
+  border-radius: 20px;
+}
+
+.Banner_califi-desktop > article {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.Banner_califi-desktop > article > div {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.Banner_califi-desktop > article > div > h2 {
+  color: black;
+  font-size: 35px;
+  margin-left: 35px;
+}
+
+.Banner_califi-desktop > article > div > ul {
+  font-size: 1.9rem;
+}
+.Banner_califi-desktop > article > div > ul > li {
+  color: #ff9e18;
+}
+
+.Banner_califi-desktop > article > div > ul > li > p {
+  color: black;
+  font-size: 20px;
+}
+
+.Boton_soli-desktop > a > button {
+  width: 10%;
+  height: 40px;
+  background-color: #ff9e18;
+  color: var(--wh-blue);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: #ff9e18;
+  margin: 10px 0;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 70%;
+  margin-top: -1%;
+}
+
+.Boton_soli-desktop > a > button:hover {
+  background-color: var(--wh-blue);
+  color: white;
+}
+
+.Tabla-desktop {
+  background: #ffffff;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 1250px;
+  max-width: 1680px;
+}
+
+.Contenedor_ProgramaFderal-desktop > h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin-top: 80px;
+  width: 60%;
+}
+
+.Contenedor_ProgramaFderal-desktop > h1 > span {
+  color: #ff9e18;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.Tabla-desktop > article {
+  margin: 30px 0;
+  display: flex;
+  color: white;
+}
+
+.Tabla-desktop > article > table > tbody > tr {
+  color: white;
+  width: 200px;
+  height: 5em;
+}
+
+.Tabla-desktop > article > table > tbody > tr > th {
+  color: var(--wh-blue);
+  width: 160px;
+  padding: 0 10px;
+  font-weight: 600;
+  height: 5em;
+  border-right: solid 1px var(--wh-blue);
+  border-bottom: solid 1px var(--wh-blue);
+}
+
+.Tabla-desktop > article > table > tbody > tr > .Table_Az {
+  background-color: var(--wh-blue);
+  color: #ffffff;
+}
+
+.Tabla-desktop > article > table > tbody > tr > .Table_Az > span {
+  font-weight: 800;
+}
+
+.Tabla-desktop > article > table > tbody > tr > td {
+  color: var(--wh-blue);
+  text-align: center;
+  font-weight: 600;
+  border-right: solid 1px var(--wh-blue);
+}
+
+.Banner_form-desktop {
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/proceso-adquirir-sistema-energia-solar.webp');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #ffffff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 1250px;
+  max-width: 1680px;
+  border-radius: 20px;
+}
+
+.Banner_form-desktop > article {
+  width: 58%;
+  position: relative;
+  left: 100px;
+}
+
+.Banner_form-desktop > article > h1 {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  width: 60%;
+  font-size: 30px;
+  position: relative;
+  left: 100px;
+}
+
+.Banner_form-desktop > article > h1 > span {
+  color: #ff9e18;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Banner_form-desktop > article > p {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  width: 60%;
+  position: relative;
+  left: 100px;
+}
+
+.Banner_form-desktop > article > p > span {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Banner_form-desktop > article > form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  right: 6%;
+}
+
+.Banner_form-desktop > article > form > div {
+  width: 50%;
+}
+
+.Banner_form-desktop > article > form > div > input {
+  height: 35px;
+  background-color: #ffffffeb;
+  border: 1px solid #ff9e18;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  margin: 10px;
+}
+
+.Banner_form-desktop > article > form > button {
+  width: 25%;
+  height: 40px;
+  background-color: #ff9e18;
+  border-radius: 20px;
+  color: var(--wh-blue);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 35%;
+}
+
+.Banner_form-desktop > article > form > button:hover {
+  width: 25%;
+  height: 40px;
+  background-color: var(--wh-blue);
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 35%;
+}
+
+::placeholder {
+  padding-left: 30px;
+}
+
+.Banner_form-desktop > div > img {
+  width: 70%;
+}

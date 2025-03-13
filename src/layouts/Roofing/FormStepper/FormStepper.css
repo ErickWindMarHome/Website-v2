@@ -1,0 +1,78 @@
+.FormStepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px 3vw;
+}
+
+.FormStepper p {
+  font-size: clamp(12px, 5vw, 24px);
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 0;
+}
+
+.FormStepper form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.FormStepper form label {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px 0;
+  color: var(--wh-blue);
+}
+
+.FormStepper form input {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 5px 14px;
+  box-sizing: border-box;
+}
+
+.FormStepper form select {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 5px 14px;
+  box-sizing: border-box;
+}
+
+.FormStepper form div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+.FormStepper form div button {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-style: none;
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px 14px;
+  box-sizing: border-box;
+  background-color: var(--wh-blue);
+  color: white;
+  cursor: pointer;
+}

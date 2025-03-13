@@ -1,0 +1,300 @@
+.Cybertruckfl-mobile {
+  width: 100vw;
+  height: 100%;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #050507;
+  box-sizing: border-box;
+  /* padding-right: 20px; */
+  margin-top: 80px;
+  overflow-x: hidden;
+}
+
+.Cybertruckfl-mobile > div:first-child {
+  position: absolute;
+  padding-top: 1%;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.Cybertruckfl-mobile > div:first-child > img {
+  width: 100%;
+}
+
+.Cybertruckfl-mobile > section {
+  width: 100vw;
+  height: 82vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+
+.Cybertruckfl-mobile > section > img {
+  margin-top: 5%;
+  width: 50%;
+  object-fit: cover;
+}
+
+/* .Cybertruckfl-mobile > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+.Cybertruckfl-mobile > article > section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Cybertruckfl-mobile > article > section > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.Cybertruckfl-mobile > article > section > div > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Cybertruckfl-mobile > article > section > div > form > input[type="text"] {
+  width: 90%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: #050507;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.Cybertruckfl-mobile
+  > article
+  > section
+  > div
+  > form
+  > input[type="text"]::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.Cybertruckfl-mobile > article > section > div > form > input[type="submit"] {
+  width: 93.2%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: #050507;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+} */
+
+.Cybertruckfl-mobile > article > section > div > h1 {
+  font-size: 32px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+  word-spacing: 5px;
+}
+
+.Cybertruckfl-mobile > article > section > div > p {
+  font-size: 20px;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Cybertruckfl-mobile > article > section > div > section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cybertruckfl-mobile > article > section > div > section > hr {
+  width: 70%;
+  height: 2px;
+  background-color: white;
+  margin: 30px 0;
+  padding: 0;
+  border: none;
+}
+
+.Cybertruckfl-mobile > article > section > div > h2 {
+  width: 90%;
+  font-size: 26px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.Cybertruckfl-mobile > article > section > div > span {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Cybertruckfl-mobile > article > section > div > span > p {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: 28px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.Cybertruckfl-mobile > article > section > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.Cybertruckfl-mobile > div:last-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Cybertruckfl-mobile > div:last-child > section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.Cybertruckfl-mobile > div:last-child > section > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.Cybertruckfl-mobile > div:last-child > section > h2 {
+  font-size: 26px;
+  font-weight: 700;
+  padding: 0;
+  margin: 10px 0;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.Cybertruckfl-mobile > div:last-child > section > h3 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0;
+  margin: 10px 0;
+  margin-top: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Cybertruckfl-mobile > div:last-child > section > ul {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: url('../../assets/cybertruckfl/check-circle.svg');
+}
+
+.Cybertruckfl-mobile > div:last-child > section > ul > li {
+  font-size: 16px;
+  margin: 15px 0;
+  padding-left: 5px;
+}
+
+.Cybertruckfl-mobile > div:last-child > section > ul > li > p {
+  position: relative;
+  margin: 0;
+  top: -5px;
+}
+
+.Cybertruckfl-mobile > div:last-child > section > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.Cybertruckfl-mobile > div:last-child > section > a > button {
+  width: 100%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: #050507;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.Cybertruckfl-mobile > div:last-child > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.Cybertruckfl-mobile > div:last-child > article > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

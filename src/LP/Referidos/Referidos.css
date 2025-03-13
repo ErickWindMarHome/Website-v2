@@ -1,0 +1,162 @@
+.Referidos-desktop {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background: url('../../assets/Referidos/BannerReferidos.jpg');
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  gap: 5vw;
+}
+
+.FormReferidos-desktop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.425);
+  padding: 0 15%;
+}
+
+.Referidos-desktop > div > article {
+  width: 500px;
+  height: 750px;
+  background-color: #1e419bdc;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-left: 10%;
+}
+
+.Referidos-desktop > div > article > img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 15%;
+}
+
+.Referidos-desktop > div > article > form {
+  width: 90%;
+  padding: 0 15px;
+}
+
+.Referidos-desktop > div > article > form > h2 {
+  color: white;
+  font-weight: 500;
+}
+.Referidos-desktop > div > article > form > label {
+  color: white;
+  font-weight: 600;
+}
+
+::placeholder {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+}
+
+.Referidos-desktop > div > article > form > input {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 35px;
+}
+
+.Referidos-desktop > div > article > form > select {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  width: 70%;
+  height: 40px;
+}
+
+.Referidos-desktop > div > article > form > button {
+  background-color: var(--e-global-color-accent);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background: #ff9e18;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  border: none;
+}
+
+.Referidos-desktop > div > article > form > button:hover {
+  transform: scale(1.1);
+}
+.Referidos-desktop > div > article > form > strong {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.FormReferidos-desktop > div {
+  height: 15%;
+  margin-top: 18%;
+  margin-left: 5%;
+}
+
+.FormReferidos-desktop > div > img {
+  height: 100%;
+}
+
+.FormReferidos-desktop > div > h2 {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  width: 75%;
+}
+
+.BannerGana-desktop {
+  min-width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  gap: 5vw;
+}
+
+.BannerGana-desktop > article > h1 {
+  color: #0038a8;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  text-align: center;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.BannerGana-desktop > article > img {
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+}

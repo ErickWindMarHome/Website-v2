@@ -1,0 +1,378 @@
+.CybertruckprContenedor-mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.Cybertruckpr-mobile {
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 100px;
+  background-image: url('../../assets/cybertruckpr/bannerPRMobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Cybertruckpr-mobile > article > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckpr-mobile > article > div > img {
+  width: 0%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.Cybertruckpr-mobile > article > div > section > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.Cybertruckpr-mobile > article > div > section > a > button {
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+
+.Cybertruckpr-mobile > article > div > section > a > button:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: transparent;
+  transform: scale(1);
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprform-mobile {
+  width: 100%;
+  background: linear-gradient(#575757, #000000);
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+
+.Cybertruckprform-mobile > article {
+  min-width: 205px;
+  max-width: 1105px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprform-mobile > article > form {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.Cybertruckprform-mobile > article > form > h1 {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.Cybertruckprform-mobile > article > form > input[type='text'] {
+  width: 85%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.Cybertruckprform-mobile > article > form > input[type='text']::placeholder {
+  color: rgb(151, 151, 151);
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.Cybertruckprform-mobile > article > form > input[type='submit'] {
+  width: 100%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(151, 151, 151);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.Cybertruckprform-mobile > article > form > select[type='text'] {
+  width: 80%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(151, 151, 151);
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.Cybertruckprform-mobile > article > form > select[type='submit'] {
+  width: 30%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: #050507;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Cybertruckprform-mobile > article > form > button {
+  width: 30%;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprform-mobile > article > form > button:hover {
+  background: white;
+  color: black;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprform-mobile > article > p {
+  margin-top: 8%;
+  margin-left: 20px;
+  width: 80%;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.Cybertruckprform-mobile > article > p > span:first-child {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+.Cybertruckprform-mobile > article > p > span:last-child {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.4em;
+  font-style: italic;
+}
+
+.Cybertruckprform-mobile > article > p > div {
+  border-top: 3px solid white;
+  height: 1px;
+  max-width: 400px;
+  padding: 0;
+}
+
+.Cybertruckprregal-mobile {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url('../../assets/cybertruckpr/Cybertruck-Campaign.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Cybertruckprregal-mobile > article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprregal-mobile > article > img {
+  width: 0%;
+}
+
+.Cybertruckprregal-mobile > div {
+  border-top: 2px solid white;
+  height: 5px;
+  max-width: 100%;
+  margin: 0 22%;
+}
+
+.Cybertruckprparti-mobile {
+  width: 100%;
+  background: black;
+  box-sizing: border-box;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprparti-mobile > article {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprparti-mobile > article > div {
+  width: 90%;
+}
+.Cybertruckprparti-mobile > article > div > h1 {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.Cybertruckprparti-mobile > article > div > ul {
+  list-style: none;
+}
+.Cybertruckprparti-mobile > article > div > ul > li {
+  padding: 10px 0;
+  text-align: left;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.Cybertruckprparti-mobile > article > div > ul > li > span > img {
+  width: 25px;
+  margin-right: 5px;
+}
+.Cybertruckprparti-mobile > article > div > p > span > img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.Cybertruckprparti-mobile > article > div > p {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.Cybertruckprparti-mobile > article > div > p {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.Cybertruckprparti-mobile > article > div > h2 {
+  padding-top: 20px;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.Cybertruckprparti-mobile > article > div > h2 > span {
+  font-weight: 400;
+}
+
+.Cybertruckprparti-mobile > article > div > section > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.Cybertruckprparti-mobile > article > div > section > a > button {
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  background-color: transparent;
+  transition-duration: 0.4s;
+  margin-bottom: 60px;
+}
+
+.Cybertruckprparti-mobile > article > div > section > a > button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprunete-mobile {
+  width: 100%;
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprunete-mobile > article {
+  width: 80%;
+}
+
+.Cybertruckprunete-mobile > article > h1 {
+  width: 100%;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.Cybertruckprunete-mobile > article > h1 > span {
+  width: 100%;
+  padding-top: 15px;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.Cybertruckprunete-mobile > article > p {
+  width: 100%;
+  padding-top: 15px;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-align: center;
+}

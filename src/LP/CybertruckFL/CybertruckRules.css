@@ -1,0 +1,100 @@
+.CybertruckRules {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  background-image: url('../../assets/cybertruckfl/backgr.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin-top: 80px;
+}
+
+.CybertruckRules > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(14, 28, 41, 0.7) 100%);
+
+  box-sizing: border-box;
+  padding: 20px calc(10vw - 20px);
+}
+
+.CybertruckRules > div > h2 {
+  width: 100%;
+  margin-top: 60px;
+  font-size: clamp(24px, 4vw, 54px);
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.CybertruckRules > div > h1 {
+  width: 100%;
+  margin-top: 20px;
+  font-size: clamp(30px, 4.5vw, 70px);
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.CybertruckRules > div > article > p {
+  width: 100%;
+  font-size: clamp(14px, 2.5vw, 18px);
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+.CybertruckRules > div > article > ul {
+  width: 100%;
+  font-size: clamp(14px, 2.5vw, 18px);
+  font-weight: 400;
+  color: white;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.CybertruckRules > div > article > ol {
+  width: 100%;
+  font-size: clamp(14px, 2.5vw, 18px);
+  font-weight: 400;
+  color: white;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.CybertruckRules > div > article li {
+  margin: 20px 0;
+}
+
+.CybertruckRules > div > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.CybertruckRules > div > div button {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.CybertruckRules > div > div button:hover {
+  background-color: white;
+  color: black;
+}

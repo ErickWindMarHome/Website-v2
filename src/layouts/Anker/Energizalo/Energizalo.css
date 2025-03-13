@@ -1,0 +1,89 @@
+.Energizalo-desktop {
+  width: 100%;
+  height: 800px;
+  background-image: url('../../../assets/anker/energizalo-bg.jpg');
+  background-size: auto 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 120px;
+}
+
+.Energizalo-desktop div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  min-width: 800px;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.Energizalo-desktop div p {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Energizalo-desktop div h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 87px;
+  background: -webkit-linear-gradient(180deg, #00db84, #00a9e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.Energizalo-mobile {
+  width: 100vw;
+  height: 500px;
+  background-image: url('../../../assets/anker/energizalo-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.Energizalo-mobile div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.Energizalo-mobile div p {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Energizalo-mobile div h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 87px;
+  background: -webkit-linear-gradient(180deg, #00db84, #00a9e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}

@@ -1,0 +1,351 @@
+.contenedor-desktop {
+  background-image: url('../../assets/lema/banner-fl-desktop.png');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: top center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-desktop {
+  left: 30%;
+  width: 350px;
+  padding: 30px 40px 30px 40px;
+  margin: 30px 40px 30px 40px;
+  max-height: 2000vw;
+  max-width: 400px;
+  background: #002c8598;
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  box-shadow: 5px 20px 15px 5px #00000071;
+}
+.yes-desktop {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: -20px;
+}
+.Not-desktop {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: -20px;
+  color: #ffffff;
+}
+.Form-desktop {
+  font-size: 30px;
+  color: #ff9e18;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 50px;
+  margin: 0;
+  text-shadow: 1px 3px 2px #000000;
+}
+
+.masDinero-desktop {
+  font-size: 45px;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+
+.negrita-desktop {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.espacio-desktop {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+}
+
+.RoofType-desktop {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+}
+
+.Languaje-desktop {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+}
+
+.EventNameDown-desktop {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.texto-desktop {
+  font-size: 15px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.submit-desktop {
+  height: 40px;
+  width: 50%;
+  background-color: #ff9e18;
+  color: #002c85;
+  text-decoration: solid;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #002c85;
+  box-shadow: 1px 4px 10px 1px #000000;
+}
+.reset-desktop {
+  height: 40px;
+  width: 50%;
+  background-color: #ff9e18;
+  color: #002c85;
+  text-decoration: solid;
+  border-radius: 10px;
+}
+.reset:hover {
+  background-color: white;
+  color: #002c85;
+  box-shadow: 1px 4px 10px 1px #000000;
+}
+
+.boton1-desktop {
+  height: 40px;
+  width: 30%;
+  background-color: #ff9e18;
+  color: #002c85;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+
+.boton1:hover {
+  background-color: white;
+  color: #002c85;
+  box-shadow: 1px 4px 10px 1px #000000;
+}
+
+.boton2-desktop {
+  height: 40px;
+  width: 30%;
+  background-color: #ff9e18;
+  color: #002c85;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+
+.boton2:hover {
+  background-color: white;
+  color: #002c85;
+}
+
+.boton3-desktop {
+  height: 40px;
+  width: 30%;
+  background-color: #ff9e18;
+  color: #002c85;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+.boton3:hover {
+  background-color: white;
+  color: #002c85;
+}
+
+/* movil */
+
+.contenedor-mobile {
+  background-image: url('../../assets/lema/banner-pr-desktop.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container-mobile {
+  padding: 20px 20px 20px 20px;
+  width: 97%;
+  max-width: 400px;
+  background: #002c8598;
+  backdrop-filter: blur(2px);
+  border-radius: 15px;
+  box-shadow: 5px 20px 15px 5px #00000071;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.yes-mobile {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: -20px;
+}
+.Not-mobile {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: -20px;
+  color: #ffffff;
+}
+.Form-mobile {
+  font-size: 25px;
+  color: #ff9e18;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 50px;
+  margin: 0;
+  text-shadow: 1px 3px 2px #000000;
+}
+
+.masDinero-mobile {
+  font-size: 45px;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+
+.negrita-mobile {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.espacio-mobile {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+}
+
+.RoofType-mobile {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+}
+
+.Languaje-mobile {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+}
+
+.EventNameDown-mobile {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.texto-mobile {
+  font-size: 15px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.submit-mobile {
+  height: 25px;
+  width: 50%;
+  background-color: #ff9e18;
+  color: #002c85;
+  text-decoration: solid;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #002c85;
+  box-shadow: 1px 4px 10px 1px #000000;
+}
+.reset-mobile {
+  height: 25px;
+  width: 50%;
+  background-color: #ff9e18;
+  color: #002c85;
+  text-decoration: solid;
+  border-radius: 10px;
+}
+.reset:hover {
+  background-color: white;
+  color: #002c85;
+  box-shadow: 1px 4px 10px 1px #000000;
+}
+
+.boton1-mobile {
+  height: 30px;
+  width: 70%;
+  background-color: #ff9e18;
+  color: #002c85;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.boton1:hover {
+  background-color: white;
+  color: #002c85;
+  box-shadow: 1px 4px 10px 1px #000000;
+}
+
+.boton2-mobile {
+  height: 30px;
+  width: 70%;
+  background-color: #ff9e18;
+  color: #002c85;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.boton2:hover {
+  background-color: white;
+  color: #002c85;
+}
+
+.boton3-mobile {
+  height: 30px;
+  width: 70%;
+  background-color: #ff9e18;
+  color: #002c85;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+}
+.boton3:hover {
+  background-color: white;
+  color: #002c85;
+}

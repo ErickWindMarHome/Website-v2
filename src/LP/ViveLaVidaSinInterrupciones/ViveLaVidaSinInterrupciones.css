@@ -1,0 +1,218 @@
+.ViveLaVidaSinInterrupciones-desktop {
+  width: 100%;
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/sistema-fotovoltaico-gran-capacidad.webp');
+  margin-top: 80px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 0 40px;
+  gap: 5vw;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article {
+  width: 30%;
+  background-color: #0038a8b6;
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article > img {
+  width: 80%;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article > form {
+  width: 80%;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article > form > label {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article > form > input {
+  color: #000000;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article > form > select {
+  color: #000000;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article > form > button {
+  background-color: var(--e-global-color-accent);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background: #ff9e18;
+  cursor: pointer;
+  width: 150px;
+  height: 60px;
+  align-items: center;
+  border: none;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > article > form > strong {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > section {
+  margin-top: 10%;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > section > img {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > section > article {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ViveLaVidaSinInterrupciones-desktop > section > article > img {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.Banner_SunnC-desktop {
+  width: 100%;
+  height: 10%;
+  background: #ff9e18;
+}
+.Banner_SunnC-desktop > article > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Banner_SunnC-desktop > article > div > img {
+  width: 200px;
+  margin-top: 8px;
+  margin-right: 50px;
+}
+
+.Banner_SunnC-desktop > article > div > h2 {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  align-items: center;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.Banner_PQC-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.Banner_PQC-desktop > article > div {
+  color: #54595f;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.Banner_PQC-desktop > article > div > img {
+  width: 20%;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+  margin: 0 10px;
+  align-items: center;
+}
+
+.Banner_PQC-desktop > article > div > img:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Banner_PQC-desktop > article > h1 {
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.Banner_Carmen-desktop {
+  min-width: 100vw;
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/sistema-fotovoltaico-gran-capacidad.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.Banner_Carmen-desktop > article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+  padding-top: 5%;
+}
+
+.Banner_Carmen-desktop > article > h1 {
+  width: 70%;
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.Banner_Carmen-desktop > article > img {
+  width: 50%;
+}

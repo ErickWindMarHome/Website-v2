@@ -1,0 +1,156 @@
+.Referidos-mobile {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background: url('../../assets/Referidos/BannerReferidos.jpg');
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  gap: 5vw;
+}
+
+.Referidos-mobile > div > article {
+  width: 100%;
+  background-color: #1e419bdc;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.Referidos-mobile > div > article > img {
+  width: 80%;
+  margin-bottom: 20px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.Referidos-mobile > div > article > form {
+  width: 80%;
+  padding: 0 15px;
+}
+
+.Referidos-mobile > div > article > form > h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Referidos-mobile > div > article > form > label {
+  color: white;
+  font-weight: 600;
+}
+
+::placeholder {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+}
+
+.Referidos-mobile > div > article > form > input {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 35px;
+}
+
+.Referidos-mobile > div > article > form > select {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  width: 70%;
+  height: 40px;
+}
+
+.Referidos-mobile > div > article > form > button {
+  background-color: var(--e-global-color-accent);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background: #ff9e18;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  border: none;
+}
+
+.Referidos-mobile > div > article > form > strong {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.FormReferidos-mobile {
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+.FormReferidos-mobile > div {
+  height: 200px;
+  margin-top: 18%;
+  margin-left: 5%;
+}
+
+.FormReferidos-mobile > div > img {
+  height: 35%;
+}
+
+.FormReferidos-mobile > div > h2 {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  width: 90%;
+}
+
+.BannerGana-mobile {
+  min-width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  gap: 5vw;
+}
+
+.BannerGana-mobile > article > h1 {
+  color: #0038a8;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  text-align: center;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.BannerGana-mobile > article > img {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

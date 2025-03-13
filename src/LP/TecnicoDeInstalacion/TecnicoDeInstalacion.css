@@ -1,0 +1,357 @@
+.ContendorTecInstalacion-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TecInstalacion-desktop {
+  width: 100%;
+  height: 100%;
+  background: url('../../assets/TecnicoDeInstalacion/BanneTecnico.jpg');
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+
+.FormSectionTecIns-desktop {
+  width: 25%;
+  height: 100%;
+  background: #001d65de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+.FormSectionTecIns-desktop img {
+  width: 75%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.FormSectionTecIns-desktop form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 15px;
+  gap: 15px;
+}
+.FormSectionTecIns-desktop label {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+}
+.FormSectionTecIns-desktop input {
+  height: 40px;
+}
+.FullName-desktop {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.FullName-desktop div {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 5px;
+}
+.FullName-desktop input {
+  display: flex;
+  width: 96%;
+  flex-direction: column;
+
+  gap: 5px;
+}
+.Mail-desktop {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+
+  gap: 5px;
+}
+.Phone-desktop {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.Resume-desktop input {
+  font-size: 100%;
+  height: 30px;
+  color: #7a7a7a;
+  font-size: 100%;
+}
+.Resume-desktop input::file-selector-button {
+  font-size: 100%;
+  height: 30px;
+  font-size: 120%;
+}
+.Submit-desktop {
+  width: 40%;
+  height: 40px;
+  background-color: #ff9e18;
+  border: 0;
+  color: #fff;
+  font-size: 150%;
+}
+
+.TecInstalacion-desktop > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1175.27px;
+  height: 911.44px;
+}
+.TecInstalacion-desktop > div:last-child > img:first-child {
+  width: 50%;
+}
+.TecInstalacion-desktop > div:last-child > p {
+  width: 60%;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.TecInstalacion-desktop > div:last-child > img:last-child {
+  width: 50%;
+  height: calc(100% - 100px);
+}
+.ContendorTecInstalacion-desktop > div:last-child {
+  width: 100%;
+  display: flex;
+  padding: 27px 527.17px 33px 527.36px;
+  justify-content: center;
+  align-items: center;
+  background: #ff9e18;
+}
+.ContendorTecInstalacion-desktop > div:last-child > p {
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.TecInstalacion-desktop > div:first-child > p {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 10.5px 15px 11.5px 15px;
+}
+.TecInstalacion-desktop > div:first-child > p > a {
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration-line: underline;
+}
+.Video-desktop {
+  justify-content: center;
+  height: 50vh;
+  width: 1140px;
+  padding: 5%;
+}
+.Video-desktop iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.Lista-desktop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Lista-desktop > div {
+  width: 25%;
+}
+
+.Lista-desktop > div > img {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Lista-desktop > ul {
+  list-style: none;
+}
+
+.Lista-desktop > ul > li {
+  text-align: left;
+  color: #0038a8;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5em;
+}
+.BeneficiosFV-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BeneficiosFV-desktop > article {
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  padding: 5% 0;
+}
+
+.BeneficiosFV-desktop > article > div > img {
+  width: 30%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  align-items: center;
+}
+
+.BeneficiosFV-desktop > article > div > img:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.329);
+}
+
+.BeneficiosFV-desktop > article > section > img {
+  width: 30%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  align-items: center;
+}
+
+.BeneficiosFV-desktop > article > section > img:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.329);
+}
+
+.BeneficiosFV-desktop > article > h1 {
+  width: 100%;
+  height: 50px;
+  color: #234992;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.BeneficiosFV-desktop > h2 {
+  width: 100%;
+  height: 100px;
+  color: #234992;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.SliderInstaller-desktop {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.ItemInstaller-desktop {
+  height: 40rem;
+  max-width: 30rem;
+  padding: 2rem;
+  display: flex;
+}
+
+.ItemInstaller-desktop > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.GaleriaInstaller-desktop {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.InstallerSli-desktop {
+  color: white;
+  font-family: 'Sofia', cursive;
+  font-size: clamp(25px, 4vw, 40px);
+  font-weight: 400;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  padding: 0 !important;
+  cursor: pointer;
+  line-height: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 300px;
+  left: 0px;
+  z-index: 100;
+}
+
+.InstallerSl-desktop {
+  color: white;
+  font-family: 'Sofia', cursive;
+  font-size: clamp(25px, 4vw, 40px);
+  font-weight: 400;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  padding: 0 !important;
+  cursor: pointer;
+  line-height: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 300px;
+  right: 15px;
+  z-index: 1000;
+}
+
+.GaleriaInstaller1 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/TecnicoDeInstalacion/Gale1.jpg') no-repeat center center / cover;
+}
+.GaleriaInstaller2 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/TecnicoDeInstalacion/Gale2.jpg') no-repeat center center / cover;
+}
+.GaleriaInstaller3 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/TecnicoDeInstalacion/Gale3.jpg') no-repeat center center / cover;
+}
+.GaleriaInstaller4 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/TecnicoDeInstalacion/Gale4.jpg') no-repeat center center / cover;
+}
+.GaleriaInstaller5 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/TecnicoDeInstalacion/Gale5.jpg') no-repeat center center / cover;
+}
+.FormSection-desktop select {
+  display: none;
+  height: 30px;
+}

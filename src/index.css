@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --wh-orange: #f89b24;
+  --wh-blue: #1e429b;
+  --wh-black: #231f20;
+  --wh-light-blue: #a6c3e6;
+  --wh-grey: #6d6e71;
+  --wh-tesla-grey: #a7a9ac;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  min-width: 320px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth;
+}

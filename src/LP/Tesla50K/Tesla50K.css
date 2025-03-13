@@ -1,0 +1,219 @@
+.ContendorTesla50K-desktop {
+  width: 100%;
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/equipo-windmar-instalando-placas-solares.webp');
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tesla50K-desktop {
+  background-color: #001d65ab;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+
+.Tesla50K-desktop > div > p {
+  width: 70%;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 20px;
+}
+
+.Tesla50K-desktop > div {
+  width: 40%;
+  margin-top: 5%;
+}
+
+.Tesla50K-desktop > div > img {
+  position: absolute;
+  width: 20%;
+  margin-top: 1%;
+}
+
+.TituloConfiable-desktop {
+  width: 80%;
+  color: #1e429b;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.9em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.titulo {
+  width: 80%;
+  font-weight: 800;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 40px;
+}
+
+.GaleriaTesla-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  margin-top: 10%;
+}
+
+.GaleriaTesla-desktop > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  padding: 3% 0;
+}
+
+.GaleriaTesla-desktop > article > div {
+  display: flex;
+  justify-content: center;
+}
+
+.GaleriaTesla-desktop > article > div > img {
+  width: 20%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  align-items: center;
+}
+
+.GaleriaTesla-desktop > article > section {
+  display: flex;
+  justify-content: center;
+}
+
+.GaleriaTesla-desktop > article > section > img {
+  width: 20%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  align-items: center;
+}
+
+.GaleriaTesla-desktop > article > h1 {
+  width: 100%;
+  height: 30px;
+  color: #234992;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.GaleriaTesla-desktop > article > h2 {
+  width: 100%;
+  height: 100px;
+  color: #234992;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.Powerwall-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  padding: 3% 0;
+}
+
+.Powerwall-desktop > article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Powerwall-desktop > article > img {
+  width: 20%;
+}
+
+.Powerwall-desktop > article > div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Powerwall-desktop > article > div > h1 {
+  font-size: 30px;
+  color: #1e429b;
+  font-weight: 800;
+}
+
+.Powerwall-desktop > article > div > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.IconosTesla-desktop {
+  width: 100%;
+  background: #1e429b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.VamosCamino-desktop {
+  width: 100%;
+  color: #1e429b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.VamosCamino-desktop > article > h1 {
+  width: 100%;
+  color: #1e429b;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.VamosCamino-desktop > article > h1 > strong {
+  width: 100%;
+  color: #ff9e29;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.VamosCamino-desktop > article > h2 > strong {
+  width: 100%;
+  color: #ff9e29;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.VamosCamino-desktop > article > h2 {
+  width: 100%;
+  color: #1e429b;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}

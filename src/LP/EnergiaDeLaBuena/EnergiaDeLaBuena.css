@@ -1,0 +1,163 @@
+.EnergiaDeLaBuena-desktop {
+  width: 100%;
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/casa-con-energia-solar.webp');
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 40px 40px;
+  gap: 5vw;
+}
+
+.EnergiaDeLaBuena-desktop > article {
+  width: 550px;
+  background-color: #0038a8b6;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.EnergiaDeLaBuena-desktop > article > img {
+  width: 100%;
+}
+
+.EnergiaDeLaBuena-desktop > article > form {
+  width: 95%;
+}
+
+.EnergiaDeLaBuena-desktop > article > form > input {
+  color: #000000;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.EnergiaDeLaBuena-desktop > article > form > select {
+  color: #000000;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.EnergiaDeLaBuena-desktop > article > form > button {
+  background-color: var(--e-global-color-accent);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background: #ff9e18;
+  cursor: pointer;
+  width: 150px;
+  height: 60px;
+  align-items: center;
+  border: none;
+}
+
+.EnergiaDeLaBuena-desktop > article > form > strong {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.Banner_Sunn-desktop {
+  width: 100%;
+  height: 5%;
+  background: #ff9e18;
+}
+.Banner_Sunn-desktop > article > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Banner_Sunn-desktop > article > div > img {
+  width: 25%;
+  margin-top: 8px;
+  margin-right: 50px;
+}
+
+.Banner_Sunn-desktop > article > div > h2 {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  align-items: center;
+  margin-top: 1%;
+  width: 50%;
+}
+
+.Banner_PQ-desktop > article > div {
+  color: #54595f;
+  box-sizing: border-box;
+  margin-left: 150px;
+  display: flex;
+}
+
+.Banner_PQ-desktop > article > div > img {
+  width: 20%;
+  height: 25%;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.09);
+  margin: 10px;
+  align-items: center;
+}
+
+.Banner_PQ-desktop > article > div > img:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Banner_PQ-desktop > article > h1 {
+  margin-top: 5%;
+  width: 100%;
+  color: #234992;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.Banner_Az-desktop {
+  min-width: 100vw;
+  background: url('../../assets/cambiate_a_energia_solar/BannerAzul.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.Banner_Az-desktop > article > h1 {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  margin: 100px 40px 30px 40px;
+  text-align: center;
+}
+
+.Banner_Az-desktop > article > img {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+}

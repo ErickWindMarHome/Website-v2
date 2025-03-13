@@ -1,0 +1,40 @@
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 20s linear infinite;
+  display: flex;
+  width: 200%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-animation {
+  animation: rotate 15s linear infinite;
+}
+
+.rotate-animation-sol {
+  animation: rotate-sol 45s linear infinite;
+}
+
+@keyframes rotate-sol {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

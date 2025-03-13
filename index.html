@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" as="style" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script>
+      ;(function () {
+        var _heatmap_paq = (window._heatmap_paq = window._heatmap_paq || [])
+        var heatUrl = (window.heatUrl = 'https://dashboard.heatmap.com/')
+        function hLoadInitialScript(url) {
+          var script = document.createElement('script')
+          script.type = 'text/javascript'
+          script.src = url
+          script.async = false
+          script.defer = true
+          document.head.appendChild(script)
+        }
+        hLoadInitialScript(heatUrl + 'preprocessor.min.js?sid=451')
+        window.addEventListener('DOMContentLoaded', function () {
+          if (typeof _heatmap_paq != 'object' || _heatmap_paq.length == 0) {
+            _heatmap_paq.push(['setTrackerUrl', heatUrl + 'sttracker.php'])
+            hLoadInitialScript(heatUrl + 'heatmap-light.min.js?sid=451')
+          }
+        })
+      })()
+    </script>
+    <!-- Begin TVSquared Page Visits Tracking Code -->
+    <script type="text/javascript">
+      var _tvq = (window._tvq = window._tvq || [])
+      ;(function () {
+        var u = 'https:' == document.location.protocol ? 'https://collector-47229.us.tvsquared.com/' : 'http://collector-47229.us.tvsquared.com/'
+        _tvq.push(['setSiteId', 'TV-5427727209-1'])
+        _tvq.push(['setTrackerUrl', u + 'tv2track.php'])
+        _tvq.push([
+          function () {
+            this.deleteCustomVariable(5, 'page')
+          },
+        ])
+        _tvq.push(['trackPageView'])
+        var d = document,
+          g = d.createElement('script'),
+          s = d.getElementsByTagName('script')[0]
+        g.type = 'text/javascript'
+        g.defer = true
+        g.async = true
+        g.src = u + 'tv2track.js'
+        s.parentNode.insertBefore(g, s)
+      })()
+    </script>
+    <!-- End TVSquared Tracking Code -->
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- <script src="//code.tidio.co/5nazzt71j3auf3xxaf5zdhxtaejcnnnu.js" async></script> -->
+  </body>
+</html>

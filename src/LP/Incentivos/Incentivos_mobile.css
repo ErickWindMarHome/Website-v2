@@ -1,0 +1,381 @@
+.Contenedor_ProgramaFderal-mobile {
+  background: #f2f2f2;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.ProgramaFderal-mobile {
+  width: 100%;
+  min-height: 800px;
+  max-height: 1600px;
+  min-width: 320px;
+  max-width: 1105px;
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/fondo-mobile-incentivos-solar-01.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  gap: 5vw;
+}
+
+.ProgramaFderal-mobile > article {
+  margin: 20px 0 200px 0;
+  box-sizing: border-box;
+  padding: 25px 35px;
+}
+
+.ProgramaFderal-mobile > article > h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ff9e18;
+  text-align: center;
+  margin: 20px 25px;
+}
+
+.ProgramaFderal-mobile > article > h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ProgramaFderal-mobile > article > h2 > span {
+  color: #ff9e18;
+}
+
+.ProgramaFderal-mobile > article > p {
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.ProgramaFderal-mobile > article > p > strong {
+  font-weight: 800;
+}
+
+.ProgramaFderal-mobile > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProgramaFderal-mobile > section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormMobile_ProgramaFderal-mobile > form {
+  background: #ffffff;
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  min-width: 250px;
+  max-width: 1105px;
+  padding-left: 15px;
+}
+
+.FormMobile_ProgramaFderal-mobile > form > h1 {
+  font-size: 30px;
+  color: #ff9e18;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.FormMobile_ProgramaFderal-mobile > form > label {
+  font-size: 15px;
+  color: #ff9e18;
+  text-align: justify;
+}
+
+.FormMobile_ProgramaFderal-mobile > form > input {
+  height: 35px;
+  background-color: #ffffffca;
+  border-radius: 10px;
+  border: 1px solid #ff9e18;
+  width: 90%;
+  margin: 15px 0;
+}
+
+.FormMobile_ProgramaFderal-mobile > form > select {
+  height: 35px;
+  background-color: #ffffffeb;
+  border-radius: 3px;
+  border: 1px solid #ff9e18;
+  margin-bottom: 10px;
+  width: 90%;
+  margin: 15px 0;
+}
+
+.FormMobile_ProgramaFderal-mobile > form > div > button {
+  width: 50%;
+  height: 35px;
+  background-color: #ff9e18;
+  color: var(--wh-blue);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: #ff9e18;
+  margin: 10px 20%;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.FormMobile_ProgramaFderal-mobile > form > div > button:hover {
+  background-color: var(--wh-blue);
+  color: white;
+}
+
+.Boton_soli-mobile button {
+  width: 60%;
+  height: 40px;
+  background-color: #ff9e18;
+  color: var(--wh-blue);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: #ff9e18;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: 20%;
+}
+
+.Boton_soli-mobile button:hover {
+  background-color: white;
+  color: var(--wh-blue);
+}
+
+.Banner_califi-mobile {
+  background: url('https://windmar-website-cms.s3.amazonaws.com/Windmar1.0/LANDING+PAGE/reglas-para-aplicar-incentivos.webp');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #ffffff;
+  margin-top: 40px;
+  min-width: 250px;
+  max-width: 1105px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.Banner_califi-mobile > article {
+  width: 100%;
+  justify-content: center;
+}
+
+.Banner_califi-mobile > article > div {
+  width: 90%;
+  margin-left: 10px;
+  padding-top: 80%;
+}
+
+.Banner_califi-mobile > article > div > h2 {
+  color: black;
+  font-size: 25px;
+  margin-left: 35px;
+}
+
+.Banner_califi-mobile > article > div > ul {
+  font-size: 1.5rem;
+}
+.Banner_califi-mobile > article > div > ul > li {
+  color: #ff9e18;
+}
+
+.Banner_califi-mobile > article > div > ul > li > p {
+  color: black;
+  font-size: 15px;
+}
+
+.Tabla-mobile {
+  background: #ffffff;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 90%;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.Contenedor_ProgramaFderal-mobile > h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 40px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.Contenedor_ProgramaFderal-mobile > h1 > span {
+  color: #ff9e18;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.Tabla-mobile > article {
+  margin: 30px 0;
+  color: white;
+  width: 90%;
+}
+
+.Tabla-mobile > article > table > tbody > tr {
+  color: white;
+  width: 60%;
+}
+
+.Tabla-mobile > article > table > tbody > tr > th {
+  color: var(--wh-blue);
+  width: 160px;
+  padding: 0 10px;
+  font-weight: 600;
+  height: 5em;
+}
+
+.Tabla-mobile > article > table > tbody > tr > .Table_Az {
+  background-color: var(--wh-blue);
+  color: #ffffff;
+}
+
+.Tabla-mobile > article > table > tbody > tr > .Table_Az > span {
+  font-weight: 800;
+}
+
+.Tabla-mobile > article > table > tbody > tr > td {
+  color: var(--wh-blue);
+  text-align: center;
+  font-weight: 600;
+  border-bottom: solid 1px var(--wh-blue);
+  padding: 10px;
+}
+
+.Banner_form-mobile {
+  background: url('../../assets/incentivos/img_fomr.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #ffffff;
+  margin-top: 40px;
+  min-width: 250px;
+  max-width: 1105px;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-left: 15px;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.Banner_form-mobile > article {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.Banner_form-mobile > article > h1 {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 90%;
+}
+
+.Banner_form-mobile > article > h1 > span {
+  color: #ff9e18;
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Banner_form-mobile > article > p {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+}
+
+.Banner_form-mobile > article > p > span {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Banner_form-mobile > article > form {
+  width: 100%;
+}
+
+.Banner_form-mobile > article > form > div {
+  width: 100%;
+}
+
+.Banner_form-mobile > article > form > div > input {
+  height: 35px;
+  background-color: #ffffffeb;
+  border: 1px solid #ff9e18;
+  width: 90%;
+  border-radius: 10px;
+  margin: 3px 3px;
+}
+
+.Banner_form-mobile > article > form > button {
+  width: 50%;
+  height: 40px;
+  background-color: #ff9e18;
+  border-radius: 20px;
+  color: var(--wh-blue);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 25%;
+}
+
+.Banner_form-mobile > article > form > button:hover {
+  width: 50%;
+  height: 40px;
+  background-color: var(--wh-blue);
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 25%;
+}
+
+.Banner_form-mobile > div > img {
+  width: 70%;
+}

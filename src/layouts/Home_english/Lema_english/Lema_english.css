@@ -1,0 +1,190 @@
+.LemaContainerPR-desktop {
+  background-image: url('../../../assets/lema/banner-pr-desktop.webp');
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vw;
+  max-height: 80vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  gap: 5vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LemaContainerPR-desktop div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LemaContainerPR-desktop > img {
+  width: calc(120px + 30vw);
+  max-width: 30vw;
+  padding-bottom: 20px;
+}
+
+.LemaContainerPR-desktop article {
+  /* width: calc(120px + 60vw);
+  max-width: 60vw; */
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.LemaContainerPR-desktop article > img {
+  padding: 0 15px 0 15px;
+}
+
+.LemaContainerPR-mobile {
+  background-image: url('../../../assets/lema/banner-pr-mobile.webp');
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vw;
+  max-height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6vw;
+  padding-top: 10vw;
+  padding-bottom: 2vw;
+  box-sizing: border-box;
+}
+
+.LemaContainerPR-mobile div {
+  position: relative;
+  width: 100vw;
+}
+
+.LemaContainerPR-mobile div img:first-child {
+  width: 70%;
+}
+
+.LemaContainerPR-mobile > img {
+  width: 70vw;
+  max-width: 500px;
+}
+/* 
+.LemaContainerPR-mobile article {
+  width: calc(100px + 60vw);
+  display: block;
+  text-align: center;
+}
+
+.LemaContainerPR-mobile article > img {
+  max-width: 13vw;
+  padding: 0 15px 0 15px;
+  align-items: center;
+} */
+
+.LemaContainerFL-desktop {
+  background-image: url('../../../assets/lema/banner-fl-desktop.webp');
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vw;
+  max-height: 80vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  gap: 5vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LemaContainerFL-desktop div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LemaContainerFL-desktop > img {
+  width: calc(120px + 30vw);
+  max-width: 30vw;
+  padding-bottom: 20px;
+}
+
+.LemaContainerFL-desktop article > img {
+  max-width: 40vw;
+  padding: 0 20px 0 20px;
+  margin-top: -50px;
+}
+
+.LemaContainerFL-mobile {
+  background-image: url('../../../assets/lema/banner-fl-mobile.webp');
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vw;
+  max-height: 80vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2vw;
+  padding-bottom: 6vw;
+}
+
+.LemaContainerFL-mobile > img {
+  width: 70vw;
+  max-width: 500px;
+}
+
+.LemaContainerFL-mobile div {
+  position: relative;
+  width: 100vw;
+}
+
+.LemaContainerFL-mobile article > img {
+  max-width: 13vw;
+  padding: 0 15px 0 15px;
+}
+
+.LemaContainerFL-mobile div img:first-child {
+  width: 85%;
+}
+
+.LemaContainerPRCF {
+  background-image: url('../../../assets/comofunciona/banner01.webp');
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vw;
+  max-height: 80vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageSize {
+  width: 50vw;
+  max-width: 500px;
+}

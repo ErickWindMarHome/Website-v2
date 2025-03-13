@@ -1,0 +1,35 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+  nombre: "",
+  menu: false,
+  scroll: 0,
+  pais: "",
+  mobileQuery: window.matchMedia("(max-width: 768px)").matches
+    ? "mobile"
+    : "desktop",
+};
+
+export const statesSlice = createSlice({
+  name: "states",
+  initialState,
+  reducers: {
+    setMobileQuery: (state, action) => {
+      state.mobileQuery = action.payload;
+    },
+    setMenu: (state, action) => {
+      state.menu = action.payload;
+    },
+    setPais: (state, action) => {
+      state.pais = action.payload;
+    },
+    setScroll: (state, action) => {
+      state.scroll = action.payload;
+    },
+  },
+});
+
+export const { setMobileQuery, setMenu, setPais, setScroll } =
+  statesSlice.actions;
+
+export default statesSlice.reducer;

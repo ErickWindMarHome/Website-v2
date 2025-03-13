@@ -1,0 +1,70 @@
+.HeaderDiv-desktop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  height: 8vw;
+  min-height: 80px;
+  background-color: #ffffff;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.HeaderDiv-mobile {
+  justify-content: center;
+  padding-left: 10px;
+  align-items: center;
+  box-sizing: border-box;
+  height: 8vw;
+  min-height: 80px;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.LemaDiv {
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  height: 80vw;
+  max-height: 80vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PorQueDiv-desktop {
+  width: 100vw;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.PorQueDiv-mobile {
+  width: 100vw;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.base {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 8vw;
+  min-height: 80px;
+  max-height: 90px;
+}
+
+.espacio {
+  background: #ffffff;
+  height: 20px;
+}

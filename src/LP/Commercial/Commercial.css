@@ -1,0 +1,163 @@
+.BannerCommercial-desktop {
+  width: 100%;
+  background: url('../../assets/Commercial/BannerCommercial.png');
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 25% 10%;
+}
+
+.BannerCommercial-desktop > article {
+  width: 100%;
+}
+
+.BannerCommercial-desktop > article > div > h1 {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1em;
+  letter-spacing: 0.3px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 3%;
+}
+
+.BannerCommercial-desktop > article > div > h1 > strong {
+  color: white;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.BannerCommercial-desktop > article > div > strong > button {
+  width: 35%;
+  background: white;
+  color: #234992;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.NuestroProceso-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.NuestroProceso-desktop > article {
+  width: 100%;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.NuestroProceso-desktop > article > h1 {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 54px;
+  font-weight: 500;
+}
+
+.NuestroProceso-desktop > article > h1 > strong {
+  font-weight: 700;
+  margin-left: 1%;
+}
+
+.NuestroProceso-desktop > article > p {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.NuestroProceso-desktop > article > article {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#Consulta {
+  width: 100%;
+  height: 500px;
+  background: url('../../assets/Commercial/Consulta.png') no-repeat;
+}
+
+#Consulta:hover {
+  background: url('../../assets/Commercial/ConsultaColor.png') no-repeat;
+}
+
+#Survey {
+  width: 100%;
+  height: 500px;
+  background: url('../../assets/Commercial/Survey.png') no-repeat;
+}
+
+#Survey:hover {
+  background: url('../../assets/Commercial/SurveyColor.png') no-repeat;
+}
+
+#Diseño {
+  width: 100%;
+  height: 500px;
+  background: url('../../assets/Commercial/Diseño.png') no-repeat;
+}
+
+#Diseño:hover {
+  background: url('../../assets/Commercial/DiseñoColor.png') no-repeat;
+}
+
+.NuestroProceso-desktop > article > section {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.NuestroProceso-desktop > article > section > img {
+  width: 100%;
+  margin: 0 10px;
+  align-items: center;
+}
+
+#Financiacion {
+  width: 100%;
+  height: 500px;
+  background: url('../../assets/Commercial/Financiacion.png') no-repeat;
+}
+
+#Financiacion:hover {
+  background: url('../../assets/Commercial/FinanciacionColor.png') no-repeat;
+}
+
+#Instalacion {
+  width: 100%;
+  height: 500px;
+  background: url('../../assets/Commercial/Instalacion.png') no-repeat;
+}
+
+#Instalacion:hover {
+  background: url('../../assets/Commercial/InstalacionColor.png') no-repeat;
+}
+
+#Energizado {
+  width: 100%;
+  height: 500px;
+  background: url('../../assets/Commercial/Energizado.png') no-repeat;
+}
+
+#Energizado:hover {
+  background: url('../../assets/Commercial/EnergizadoColor.png') no-repeat;
+}

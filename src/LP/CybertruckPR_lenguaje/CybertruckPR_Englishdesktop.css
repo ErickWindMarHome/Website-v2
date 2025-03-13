@@ -1,0 +1,642 @@
+.CybertruckprContenedor-desktop {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.Cybertruckpr-desktop {
+  width: 100%;
+  height: 90vh;
+  background-image: url('../../assets/cybertruckpr/bannerPR.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  gap: 5vw;
+}
+
+.Cybertruckpr-desktop > article {
+  width: 100%;
+  min-width: 1250px;
+  max-width: 1920px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: none;
+}
+
+.Cybertruckpr-desktop > article > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckpr-desktop > article > div > img {
+  width: 30%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.Cybertruckpr-desktop > article > div > section > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.Cybertruckpr-desktop > article > div > section > a > button {
+  width: 400px;
+  height: 50px;
+  border: 2px solid white;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-top: 550px;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+
+.Cybertruckpr-desktop > article > div > section > a > button:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: transparent;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprform-desktop {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(#575757, #000000);
+  box-sizing: border-box;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprform-desktop > article {
+  width: 50%;
+  min-width: 1250px;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Cybertruckprform-desktop > article > form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Cybertruckprform-desktop > article > form > h1 {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.Cybertruckprform-desktop > article > form > input[type='text'] {
+  width: 60%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.Cybertruckprform-desktop > article > form > input[type='text']::placeholder {
+  color: rgb(151, 151, 151);
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.Cybertruckprform-desktop > article > form > input[type='submit'] {
+  width: 100%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(151, 151, 151);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.Cybertruckprform-desktop > article > form > select[type='text'] {
+  width: 40%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(151, 151, 151);
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.Cybertruckprform-desktop > article > form > select[type='submit'] {
+  width: 30%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: #050507;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Cybertruckprform-desktop > article > form > button {
+  width: 30%;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprform-desktop > article > form > button:hover {
+  background: white;
+  color: black;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprform-desktop > article > p {
+  margin-top: 8%;
+  width: 50%;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-right: 10%;
+}
+
+.Cybertruckprform-desktop > article > p > span:first-child {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+.Cybertruckprform-desktop > article > p > span:last-child {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.4em;
+  font-style: italic;
+}
+
+.Cybertruckprform-desktop > article > p > div {
+  border-top: 3px solid white;
+  height: 1px;
+  max-width: 400px;
+  padding: 0;
+}
+
+.Cybertruckprregal-desktop > article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprregal-desktop > article > img {
+  width: 58%;
+  height: 100%;
+  object-fit: cover;
+  margin: 3% 0;
+}
+
+.Cybertruckprregal-desktop > div {
+  border-top: 2px solid white;
+  height: 5px;
+  max-width: 100%;
+  margin: 0 22%;
+}
+
+.Cybertruckprparti-desktop {
+  width: 100%;
+  background: black;
+  box-sizing: border-box;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprparti-desktop > article {
+  width: 50%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprparti-desktop > article > div {
+  width: 70%;
+}
+.Cybertruckprparti-desktop > article > div > h1 {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.Cybertruckprparti-desktop > article > div > ul {
+  list-style: none;
+}
+.Cybertruckprparti-desktop > article > div > ul > li {
+  padding: 10px 0;
+  text-align: left;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.Cybertruckprparti-desktop > article > div > ul > li > span > img {
+  width: 25px;
+  margin-right: 5px;
+}
+.Cybertruckprparti-desktop > article > div > p > span > img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.Cybertruckprparti-desktop > article > div > p {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.Cybertruckprparti-desktop > article > div > p {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.Cybertruckprparti-desktop > article > div > h2 {
+  padding-top: 20px;
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.Cybertruckprparti-desktop > article > div > h2 > span {
+  font-weight: 400;
+}
+
+.Cybertruckprparti-desktop > article > div > section > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.Cybertruckprparti-desktop > article > div > section > a > button {
+  width: 400px;
+  height: 50px;
+  border: 2px solid white;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  background-color: transparent;
+  transition-duration: 0.4s;
+  margin-bottom: 60px;
+}
+
+.Cybertruckprparti-desktop > article > div > section > a > button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.Cybertruckprunete-desktop {
+  width: 100%;
+  height: 15%;
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cybertruckprunete-desktop > article {
+  width: 35%;
+  max-width: 1920px;
+}
+
+.Cybertruckprunete-desktop > article > h1 {
+  width: 100%;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.Cybertruckprunete-desktop > article > h1 > span {
+  width: 100%;
+  padding-top: 20px;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.Cybertruckprunete-desktop > article > p {
+  width: 100%;
+  padding-top: 20px;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+/* .Cybertruckpr-desktop > div:first-child {
+  position: absolute;
+  width: 100%;
+  max-width: 1280px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Cybertruckpr-desktop > div:first-child > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.Cybertruckpr-desktop > section {
+  width: 100vw;
+  max-height: 600px;
+  height: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+
+.Cybertruckpr-desktop > article {
+  width: 95%;
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+.Cybertruckpr-desktop > article > section {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Cybertruckpr-desktop > article > section > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.Cybertruckpr-desktop > article > section > div > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Cybertruckpr-desktop > article > section > div > form > input[type="text"] {
+  width: 80%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: #050507;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Cybertruckpr-desktop
+  > article
+  > section
+  > div
+  > form
+  > input[type="text"]::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.Cybertruckpr-desktop > article > section > div > form > input[type="submit"] {
+  width: 83.2%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: #050507;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.Cybertruckpr-desktop > article > section > div > h1 {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.Cybertruckpr-desktop > article > section > div > p {
+  font-size: 25px;
+  color: white;
+  margin: 0 5vw;
+  padding: 0;
+  text-align: center;
+}
+
+.Cybertruckpr-desktop > article > section > div > section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cybertruckpr-desktop > article > section > div > section > hr {
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.Cybertruckpr-desktop > article > section > div > h2 {
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-top: 120px;
+  box-sizing: border-box;
+}
+
+.Cybertruckpr-desktop > article > section > div > span {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Cybertruckpr-desktop > article > section > div > span > p {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 400;
+  list-style: 28px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.Cybertruckpr-desktop > article > section > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.Cybertruckpr-desktop > div:last-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Cybertruckpr-desktop > div:last-child > section {
+  width: 40%;
+  min-width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.Cybertruckpr-desktop > div:last-child > section > h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  margin-top: 120px;
+  box-sizing: border-box;
+}
+
+.Cybertruckpr-desktop > div:last-child > section > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  list-style: url("../../assets/cybertruckfl/check-circle.svg");
+}
+
+.Cybertruckpr-desktop > div:last-child > section > ul > li {
+  font-size: 20px;
+  margin: 15px 0;
+  padding-left: 10px;
+}
+
+
+
+.Cybertruckpr-desktop > div:last-child > article {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.Cybertruckpr-desktop > div:last-child > article > img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+} */

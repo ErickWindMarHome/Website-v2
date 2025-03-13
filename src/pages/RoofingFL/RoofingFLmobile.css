@@ -1,0 +1,949 @@
+.RoofingFL-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  min-height: 300vh;
+  margin: 0;
+  margin-top: 80px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(1) {
+  width: 100%;
+  background-image: url('../../assets/roofing-fl/shutterstock.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > header > img {
+  width: 13vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--wh-blue);
+  margin-top: 20px;
+  line-height: 0.5;
+  margin: 30px 0 0 0;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--wh-blue);
+  font-size: 47px;
+  font-weight: 700;
+  margin-top: 20px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > section:nth-child(1) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px 25px 10px 25px;
+  background-color: white;
+  line-height: 1;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > section:nth-child(1) > h5 {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--wh-blue);
+  margin: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > section:nth-child(1) > h3 {
+  font-size: 43px;
+  font-weight: 700;
+  color: var(--wh-orange);
+  margin: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > section:nth-child(1) > p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(131, 131, 131);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e419b78;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-right: 30px;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > form > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > form > div > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > form label {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > form > input[type='text'],
+.RoofingFL-mobile > main:nth-child(1) > div > form > input[type='email'],
+.RoofingFL-mobile > main:nth-child(1) > div > form > input[type='tel'] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.107);
+  border-radius: 2px;
+  margin: 2px 0 10px 0;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > form > input[type='submit'] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.107);
+  border-radius: 2px;
+  margin: 2px 0 10px 0;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--wh-blue);
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > form select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.107);
+  border-radius: 2px;
+  margin: 2px 0 10px 0;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--wh-blue);
+}
+
+.RoofingFL-mobile > main:nth-child(1) > div > article {
+  width: 26.692%;
+  height: 100%;
+}
+
+.RoofingFL-mobile > main:nth-child(2) {
+  width: 100%;
+  max-width: 1268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.RoofingFL-mobile > main:nth-child(2) > h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--wh-blue);
+}
+
+.RoofingFL-mobile > main:nth-child(2) > section > h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--wh-blue);
+  margin-top: 5px;
+  line-height: 67px;
+  width: 500px;
+  text-align: center;
+  border-bottom: 4px solid var(--wh-orange);
+}
+
+.RoofingFL-mobile > main:nth-child(2) > section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(2) > section > img {
+  width: 98%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.RoofingFL-mobile > main:nth-child(2) > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(2) > div > img {
+  width: 98%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.RoofingFL-mobile > main:nth-child(3) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  background-image: url('../../assets/roofing-fl/shutterstock5.jpg');
+  background-color: black;
+  background-size: 2800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > div {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.147);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > div > h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--wh-blue);
+  margin: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > div > h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--wh-orange);
+  margin: 15px 0;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > div > hr {
+  width: 600px;
+  height: 4px;
+  background-color: var(--wh-orange);
+  border: none;
+  margin: 10px 0;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > article {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  gap: 10px;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > article > section {
+  width: 96%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 60px 25px;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > article > section > p {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(131, 131, 131);
+  margin: 0;
+  line-height: 1.5;
+  word-spacing: 4px;
+}
+
+.RoofingFL-mobile > main:nth-child(3) > article > section > strong {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--wh-blue);
+  margin: 0;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.RoofingFL-mobile > main:nth-child(4) {
+  width: 100%;
+  max-width: 1268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  background-size: cover;
+  background-position: 0 -140px;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > div > h3 {
+  font-size: 27px;
+  font-weight: 400;
+  color: var(--wh-blue);
+  margin: 10px;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > div > h1 {
+  font-size: 47px;
+  font-weight: 700;
+  color: var(--wh-orange);
+  margin: 10px;
+  text-align: center;
+}
+.RoofingFL-mobile > main:nth-child(4) > div > h2 {
+  font-size: 34px;
+  width: 620px;
+  font-weight: 700;
+  color: var(--wh-blue);
+  margin: 10px;
+  text-align: center;
+  border-bottom: 4px solid var(--wh-orange);
+}
+
+.RoofingFL-mobile > main:nth-child(4) > div > p {
+  width: 95%;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--wh-blue);
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 80px 0 80px 0;
+  gap: 40px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > article {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 20px 20px 10px 10px;
+  background-color: #eeeeee;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > article > h1 {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--wh-blue);
+  margin: 0;
+  text-align: center;
+}
+.RoofingFL-mobile > main:nth-child(4) > section > article > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  color: var(--wh-blue);
+  font-size: 18px;
+  font-weight: 400;
+  gap: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section li {
+  list-style: none;
+  display: flex;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section li img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section li > p {
+  margin: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section {
+  width: 98%;
+  border-radius: 30px;
+  background-color: var(--wh-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 0px 30px 10px 30px;
+  gap: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > div > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > div > div > ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > div > div > p {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > div > div > img {
+  width: 99%;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > div > article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(4) > section > section > div > article > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 400;
+  gap: 20px;
+  padding: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(5) {
+  width: 100%;
+  background-color: var(--wh-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div > section {
+  width: 97%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div > section > h1 {
+  font-size: 67px;
+  font-weight: 700;
+  color: var(--wh-orange);
+  margin: 0;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div > section > h4 {
+  font-size: 29px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div > section > hr {
+  width: 400px;
+  height: 4px;
+  background-color: var(--wh-orange);
+  border: none;
+  margin: 20px 0;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div > section > img {
+  width: 100%;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div > section > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+}
+.RoofingFL-mobile > main:nth-child(5) > div > section > ul > li {
+  list-style: '✓';
+  list-style-position: inside;
+}
+
+.RoofingFL-mobile > main:nth-child(5) > div > section > ul > li::marker {
+  color: var(--wh-orange);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.RoofingFL-mobile > main:nth-child(6) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+.RoofingFL-mobile > main:nth-child(6) h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--wh-blue);
+  margin-top: 60px;
+}
+
+.RoofingFL-mobile > main:nth-child(6) h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--wh-blue);
+  text-align: center;
+  margin: 0;
+}
+
+.RoofingFL-mobile > main:nth-child(6) hr {
+  width: 190px;
+  height: 4px;
+  background-color: var(--wh-orange);
+  border: none;
+  margin: 15px 0;
+}
+
+.RoofingFL-mobile > main:nth-child(6) p {
+  width: 90%;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--wh-blue);
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.RoofingFL-mobile > main:nth-child(6) div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 30px 0;
+}
+
+.RoofingFL-mobile > main:nth-child(6) div > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(6) div > div > img {
+  width: 60%;
+}
+
+.RoofingFL-mobile > main:nth-child(6) div > div > p {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--wh-blue);
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(7) {
+  width: 100%;
+  min-height: 800px;
+  background: url('../../assets/roofing-fl/shutterstock4.jpg');
+  background-size: 2500px;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(7) article {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.765);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 60px 20px;
+}
+.RoofingFL-mobile > main:nth-child(7) article > div {
+  width: 100%;
+  max-width: 1268px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.RoofingFL-mobile > main:nth-child(7) article > div > div {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.RoofingFL-mobile > main:nth-child(7) article > div > div > h1 {
+  width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--wh-orange);
+  margin: 10px 0;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(7) article > div > div > h3 {
+  width: 100%;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(7) article > div > div > span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(7) article > div > div > span > hr {
+  width: 380px;
+  height: 4px;
+  background-color: var(--wh-orange);
+  border: none;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(7) article > div > div > ol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 1.5;
+  color: white;
+  gap: 20px;
+  list-style-position: inside;
+}
+
+.RoofingFL-mobile > main:nth-child(8) {
+  width: 100%;
+  min-height: 130px;
+  background-color: var(--wh-orange);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(8) p {
+  width: 95%;
+  max-width: 1268px;
+  padding: 0 60px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:nth-child(9) {
+  width: 100%;
+  max-width: 1268px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 50px 50px;
+  gap: 50px;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > img {
+  width: 98%;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--wh-blue);
+  margin: 0;
+  text-align: start;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--wh-blue);
+  margin: 0;
+  text-align: start;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > hr {
+  width: 360px;
+  height: 4px;
+  background-color: var(--wh-orange);
+  border: none;
+  margin: 20px 0;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > p {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--wh-blue);
+  margin: 0;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 1.5;
+  color: var(--wh-blue);
+  list-style-position: inside;
+  list-style: none;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > ul > li {
+  list-style: '➜ ';
+  list-style-position: inside;
+}
+
+.RoofingFL-mobile > main:nth-child(9) div > ul > li::marker {
+  color: var(--wh-orange);
+}
+
+.RoofingFL-mobile > main:nth-child(10) {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  background-image: url('../../assets/roofing-fl/shutterstock5.jpg');
+  background-color: black;
+  background-size: 3000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+
+.RoofingFL-mobile > main:nth-child(10) > div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.47);
+}
+
+.RoofingFL-mobile > main:nth-child(10) > div > h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.RoofingFL-mobile > main:last-child {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  background-color: var(--wh-blue);
+}

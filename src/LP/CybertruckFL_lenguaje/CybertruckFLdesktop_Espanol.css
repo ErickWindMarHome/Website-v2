@@ -1,0 +1,264 @@
+.Cybertruckfl-desktop {
+  width: 100%;
+  height: 100%;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #050507;
+  margin-top: 80px;
+}
+
+.Cybertruckfl-desktop > div:first-child {
+  position: absolute;
+  width: 100%;
+  max-width: 1280px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Cybertruckfl-desktop > div:first-child > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.Cybertruckfl-desktop > section {
+  width: 100vw;
+  max-height: 600px;
+  height: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+
+.Cybertruckfl-desktop > article {
+  width: 95%;
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+.Cybertruckfl-desktop > article > section {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Cybertruckfl-desktop > article > section > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.Cybertruckfl-desktop > article > section > div > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Cybertruckfl-desktop > article > section > div > form > input[type='text'] {
+  width: 80%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: #050507;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Cybertruckfl-desktop > article > section > div > form > input[type='text']::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.Cybertruckfl-desktop > article > section > div > form > input[type='submit'] {
+  width: 83.2%;
+  height: 40px;
+  border: 2px solid white;
+  background-color: white;
+  color: #050507;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.Cybertruckfl-desktop > article > section > div > h1 {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.Cybertruckfl-desktop > article > section > div > p {
+  font-size: 25px;
+  color: white;
+  margin: 0 5vw;
+  padding: 0;
+  text-align: center;
+}
+
+.Cybertruckfl-desktop > article > section > div > section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cybertruckfl-desktop > article > section > div > section > hr {
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.Cybertruckfl-desktop > article > section > div > h2 {
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-top: 120px;
+  box-sizing: border-box;
+}
+
+.Cybertruckfl-desktop > article > section > div > span {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Cybertruckfl-desktop > article > section > div > span > p {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 400;
+  list-style: 28px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.Cybertruckfl-desktop > article > section > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.Cybertruckfl-desktop > div:last-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Cybertruckfl-desktop > div:last-child > section {
+  width: 40%;
+  min-width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.Cybertruckfl-desktop > div:last-child > section > h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  margin-top: 120px;
+  box-sizing: border-box;
+}
+
+.Cybertruckfl-desktop > div:last-child > section > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  list-style: url('../../assets/cybertruckfl/check-circle.svg');
+}
+
+.Cybertruckfl-desktop > div:last-child > section > ul > li {
+  font-size: 20px;
+  margin: 15px 0;
+  padding-left: 10px;
+}
+
+.Cybertruckfl-desktop > div:last-child > section > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.Cybertruckfl-desktop > div:last-child > section > a > button {
+  width: 60%;
+  height: 50px;
+  border: 2px solid white;
+  background-color: #050507;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.Cybertruckfl-desktop > div:last-child > article {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.Cybertruckfl-desktop > div:last-child > article > img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}

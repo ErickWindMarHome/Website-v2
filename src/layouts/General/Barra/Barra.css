@@ -1,0 +1,129 @@
+.blue {
+  background-color: var(--wh-blue);
+}
+.red {
+  background-color: #ef4351;
+}
+
+.black {
+  background-color: black;
+}
+
+.Barra-desktop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 65px;
+  left: 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  z-index: 100;
+}
+
+.Barra-desktop article {
+  gap: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-wrap: nowrap;
+}
+
+.Barra-desktop article > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-wrap: nowrap;
+  max-width: 40%;
+  width: clamp(30%, 20vw, 40%);
+}
+
+.Barra-desktop article > a > button {
+  border-style: none;
+  background: transparent;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  height: 80%;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid white;
+  font-weight: 600;
+}
+
+.anker_home:hover > button {
+  background: white !important;
+  color: black !important;
+}
+
+.Barra-desktop article button:hover {
+  background-color: var(--wh-orange);
+  color: var(--wh-blue);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Barra-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  font-weight: 600;
+  z-index: 100;
+}
+
+.Barra-mobile article {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: clamp(0.8rem, calc(10px + 1.2vw), 1rem);
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.Barra-mobile > article > span {
+  font-size: 13px;
+}
+
+.Barra-mobile article button {
+  border-style: none;
+  background: transparent;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  min-width: 110px;
+  max-width: 35%;
+  padding: 5px;
+  height: 80%;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid white;
+  background-color: var(--wh-blue);
+  color: white;
+  font-weight: 600;
+}
+
+.Barra-mobile article button:hover {
+  background-color: var(--wh-orange);
+  color: var(--wh-blue);
+}

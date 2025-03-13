@@ -1,0 +1,369 @@
+.CarrersInstaller-mobile {
+  width: 100%;
+  background: url('../../assets/installer/banner_installer.jpg');
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  gap: 5vw;
+  background-attachment: fixed;
+}
+
+.FormmobileCarrersInstaller-mobile {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+.FormmobileCarrersInstaller-mobile > div {
+  margin-top: 18%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.FormmobileCarrersInstaller-mobile > div > img {
+  height: 100%;
+}
+
+.FormmobileCarrersInstaller-mobile > div > h2 {
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  font-size: 25px;
+  text-align: center;
+}
+
+.FormmobileCarrersInstaller-mobile > article > div > form > p {
+  font-size: 10px;
+  text-align: justify;
+  padding: 15px 0;
+}
+
+.CarrersInstaller-mobile > div > article {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0 40px;
+  margin-left: 3%;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+
+.CarrersInstaller-mobile > div > article > img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 15%;
+}
+
+.CarrersInstaller-mobile > div > article > div > form {
+  width: 100%;
+}
+
+.CarrersInstaller-mobile > div > article > div > form > h1 {
+  color: #1e419b;
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10%;
+}
+.CarrersInstaller-mobile > div > article > div > form > label {
+  color: #636363;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.file-mobile > input {
+  border: none;
+  width: 100%;
+  padding: 20px 0;
+}
+
+::placeholder {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+}
+
+.CarrersInstaller-mobile > div > article > div > form > input {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #7a7a7a;
+}
+
+.CarrersInstaller-mobile > div > article > div > form > select {
+  color: #4b4a4a;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  width: 70%;
+  height: 40px;
+}
+
+.CarrersInstaller-mobile > div > article > div > form > div > button {
+  color: #1e419b;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  background: #ff9e18;
+  cursor: pointer;
+  width: 45%;
+  height: 30px;
+  align-items: center;
+  border: none;
+  margin: 10px;
+}
+
+.CarrersInstaller-mobile > div > article > div > form > div > button:hover {
+  transform: scale(1.1);
+}
+.CarrersInstaller-mobile > div > article > div > form > strong {
+  color: #ffffff;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.BannerAmInstaller-mobile {
+  width: 100%;
+  height: 120px;
+  background: #ff9e18;
+  justify-content: center;
+  align-items: center;
+}
+
+.BannerAmInstaller-mobile > article > p {
+  color: white;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.3em;
+  letter-spacing: 0.3px;
+  text-align: center;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.Requirements-mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Requirements-mobile > article {
+  width: 100%;
+}
+
+.Requirements-mobile > article > div > h1 {
+  color: #1e419b;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0.9em;
+  margin: 10% 10%;
+}
+
+.Requirements-mobile > article > div > ul > li {
+  color: #1e419b;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat', Sans-serif;
+}
+
+.Requirements-mobile > article > img {
+  width: 80%;
+  margin: 10% 10%;
+}
+
+.Benefits-mobile {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background: url('../../assets/installer/bannerPlacas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  gap: 5vw;
+}
+
+.BenefitsInstaller-mobile {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.BenefitsInstaller-mobile > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BenefitsInstaller-mobile > article > div > h1 {
+  color: #f89b24;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 53px;
+  font-weight: 600;
+  line-height: 0.9em;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.BenefitsInstaller-mobile > article > section {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Section1-mobile {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.Section1-mobile > div {
+  width: 50%;
+  margin-left: 20%;
+}
+
+.Section1-mobile > div > img {
+  width: 100%;
+}
+
+.Section1-mobile > div > p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Section2-mobile {
+  width: 100%;
+}
+
+.Section2-mobile > div {
+  width: 50%;
+  margin-left: 20%;
+}
+
+.Section2-mobile > div > img {
+  width: 100%;
+}
+
+.Section2-mobile > div > p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.GaleriaInstaller1 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/installer/GaleriaInstaller1.jpg') no-repeat center center / cover;
+}
+.GaleriaInstaller2 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/installer/GaleriaInstaller2.jpg') no-repeat center center / cover;
+}
+.GaleriaInstaller3 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/installer/GaleriaInstaller3.jpg') no-repeat center center / cover;
+}
+.GaleriaInstaller4 {
+  width: 100vw !important;
+  height: 30vw;
+  background: url('../../assets/installer/GaleriaInstaller4.jpg') no-repeat center center / cover;
+}
+
+.SliderInstaller-mobile {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.ItemInstaller-mobile {
+  height: 40rem;
+  max-width: 30rem;
+  padding: 2rem;
+  display: flex;
+}
+
+.ItemInstaller-mobile > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.GaleriaInstaller-mobile {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.InstallerSli-mobile {
+  color: white;
+  font-family: 'Sofia', cursive;
+  font-size: clamp(25px, 4vw, 40px);
+  font-weight: 400;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  padding: 0 !important;
+  cursor: pointer;
+  line-height: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 300px;
+  left: 0px;
+  z-index: 100;
+}
+
+.InstallerSl-mobile {
+  color: white;
+  font-family: 'Sofia', cursive;
+  font-size: clamp(25px, 4vw, 40px);
+  font-weight: 400;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  padding: 0 !important;
+  cursor: pointer;
+  line-height: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 300px;
+  right: 15px;
+  z-index: 1000;
+}
