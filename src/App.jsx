@@ -171,6 +171,23 @@ function App() {
     <>
       <Suspense fallback={<Loading />}>
         <Routes>
+          <Route
+            path="/sentry-test"
+            exact
+            element={
+              <div className="flex h-screen w-screen items-center justify-center">
+                <button
+                  className="w-full max-w-[500px] bg-blue-500 hover:bg-red-500"
+                  onClick={() => {
+                    throw new Error('This is your first error!')
+                  }}
+                >
+                  Break the world
+                </button>
+              </div>
+            }
+          ></Route>
+
           <Route path="/pr/FormCrm/:id" exact element={<FormCRM />}></Route>
           <Route path="/pr/DealsToLeads/:id" exact element={<DealsToLeads />}></Route>
 
